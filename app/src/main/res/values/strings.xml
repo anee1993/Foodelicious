@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Just for Food</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one">Veg Dishes</string>
+    <string name="two">Non Veg Dishes</string>
+    <string name="three">Soups and Desserts</string>
+    <string name="accountCreate">No Account? Create one instantly by clicking here!</string>
+    <string name="heading">Login and order away!</string>
+    <string name="Name">What\'s your Name?!</string>
+    <string name="mobileques">And your Mobile Number?!</string>
+    <string name="setapassword">Now set a tasty password</string>
+    <string-array name="VegFood">
+        <item>
+        <item>Long Click on item to add to cart</item>
+        </item>
+        <item>
+        <item>Butter Naan</item>
+        <item>--Rs 50</item>
+        </item>
+        <item>
+        <item>Veg Biriyani</item>
+        <item>--Rs 100</item>
+        </item>
+        <item>
+        <item>Hakka Noodles</item>
+         <item>--Rs 100</item>
+        </item>
+        <item>
+        <item>Aloo Parathaa</item>
+        <item>--Rs 40</item>
+        </item>
+        <item>
+        <item>South Indisan Meals</item>
+         <item>--Rs 80</item>
+        </item>
+        <item>
+        <item>North Indian Meals</item>
+         <item>--Rs 80</item>
+        </item>
+    </string-array>
+    <string name="title_activity_review">ReviewActivity</string>
+
+</resources>

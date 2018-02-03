@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bimage"
+    android:contextClickable="true">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Just For Food"
+            android:id="@+id/justforfood"
+            android:textStyle="bold|italic"
+            android:textColor="#682d00"
+            android:textSize="30sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:elegantTextHeight="false"
+            android:layout_marginRight="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Sign In"
+            android:id="@+id/login"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:textColor="#020000"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/signin"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Catering to your taste buds, time and again"
+        android:id="@+id/comment"
+        android:textStyle="bold|italic"
+        android:contextClickable="false"
+        android:textColor="#8b4f05"
+        android:layout_below="@+id/justforfood"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/coffeemugs"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Menu"
+            android:id="@+id/menu"
+            android:textStyle="bold|italic"
+            android:autoText="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/justforfood"
+            android:layout_alignStart="@+id/justforfood"
+            android:textSize="30sp"
+            android:textColor="#040101"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:elevation="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/coffeemugs"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Recipes"
+            android:id="@+id/recipe"
+            android:layout_below="@+id/menu"
+            android:layout_alignLeft="@+id/menu"
+            android:layout_alignStart="@+id/menu"
+            android:textStyle="bold|italic"
+            android:textSize="30sp"
+            android:textColor="#040101"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:elevation="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@drawable/coffeemugs"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reviews"
+            android:id="@+id/reviews"
+            android:layout_below="@+id/recipe"
+            android:layout_alignLeft="@+id/recipe"
+            android:layout_alignStart="@+id/recipe"
+            android:textStyle="bold|italic"
+            android:textSize="30sp"
+            android:textColor="#040101"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:elevation="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
